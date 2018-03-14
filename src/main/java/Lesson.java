@@ -16,12 +16,4 @@ public class Lesson {
         lessonNumber++;
     }
 
-    public static void main(String []args) {
-//        String nazwalekci = System.console().readLine();
-
-        Console co = System.console();
-        String asd = co.readLine( );
-        System.out.println(asd);
-
-    }
 }
