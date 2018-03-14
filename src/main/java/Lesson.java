@@ -16,4 +16,8 @@ public class Lesson {
         lessonNumber++;
     }
 
+    public int getLessonNumber() {
+        return lessonNumber;
+    }
+
 }
