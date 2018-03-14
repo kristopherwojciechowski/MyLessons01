@@ -6,8 +6,11 @@ public class Application {
 //        String asd = co.readLine( );
 //        System.out.println(asd);
 
-        Lesson angielski = new Lesson();
-        Lesson polski = new Lesson();
+        Subject ang = new Subject("angielski");
+//        Lesson  = new Lesson();
+        Lesson osoby = new Lesson();
+
+        ang.addLesson(osoby);
 
     }
 }
